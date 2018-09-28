@@ -78,23 +78,5 @@ namespace SuperHero.Controllers
             return RedirectToAction("Index");
 
         }
-
-        //public ActionResult Delete()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public ActionResult Delete(Superheroes superheroes)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.Superheros.Remove(superheroes);
-        //        db.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-
-        //    return View(superheroes);
-        //}
     }
 }

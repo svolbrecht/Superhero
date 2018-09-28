@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201809271842316_removed duplicate dbset.Designer.cs">
       <DependentUpon>201809271842316_removed duplicate dbset.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809281542207_update.cs" />
+    <Compile Include="Migrations\201809281542207_update.Designer.cs">
+      <DependentUpon>201809281542207_update.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -223,6 +227,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\wolverine-background-theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -304,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809271842316_removed duplicate dbset.resx">
       <DependentUpon>201809271842316_removed duplicate dbset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809281542207_update.resx">
+      <DependentUpon>201809281542207_update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
